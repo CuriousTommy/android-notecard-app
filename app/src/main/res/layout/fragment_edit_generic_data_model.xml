@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".androidView.fragment.generic.GenericEditDataModelFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subject" />
+
+        <EditText
+            android:id="@+id/edittext_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textview_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/content" />
+
+        <EditText
+            android:id="@+id/edittext_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Homework3</string>
+    <string name="add_option">Add</string>
+    <string name="edit_option">Edit</string>
+    <string name="save_option">Save</string>
+    <string name="delete_option">Delete</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="subject">Subject</string>
+    <string name="content">Content</string>
+
+    <string name="cardset_name">Cardset Name</string>
+    <string name="description">Description</string>
+
+    <string name="front_card">Front Side</string>
+    <string name="back_card">Back Side</string>
+</resources>
